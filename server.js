@@ -11,7 +11,7 @@ const app = express();
 
 // ======= MONGODB CONNECTION =======
 mongoose
-  .connect("mongodb://127.0.0.1:27017/time_tracker_demo", {
+  .connect("mongodb+srv://Thaya:123456@@cluster0.2i5t5pd.mongodb.net/", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
